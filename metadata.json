@@ -1,0 +1,5 @@
+{
+  "name": "동비게이토 24구절",
+  "description": "An application to help users memorize the 24 key verses of Dong-Navigator. It features verse display, sequential navigation, and a partial hiding function to aid in recitation.",
+  "requestFramePermissions": []
+}

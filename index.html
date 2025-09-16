@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEAAAABACAYAAACqaXHeAAAAAXNSR0IArs4c6QAAAyVJREFUeAHtW1tPE1EUb+7GtmzBtlpQpEgpGi8m0agv4sUf4M949ehF8eBFEy+aFw+aGA9Gg8aDx7wYH2g8aBQUUBAqVdAUKCgUDGwb2HI8M/PNNit0bbrT3WzJd3LJOd+555x7zpyZ8Y+FhF+sYPg/BUAmAJwA8J8b4rV99ukxALwD4H6a5q3j+j4AmAD2AbgS608fA/ANgEcA3ALwIcCbJb0yLzV8A+AbADeBJ1cZANoAaAXwDoBf7nCg/L4S/T0AbAXwEwBvW9f251o7AO4B2A0AjbQ6ADQI4DeG++gdwFcA3i3Zk/wVwJcAnm/7eWkEAdgpAOUA8h29A0AnL19sC8B6AOoA8u2v/x7g9gDx/A/ADQD+CNAbV0fUARbAYwDOB+A1AE/Y3j6u/z2A3AAzP45r3wEwD+A+gI/sfgfgFwBvS3psSgGYBeAJAD8C9F8vALgSwMUAXpT01JgCsBvAlQA+Zfc9AJe/nQ9T/hL10gEATwL4t6TvRQVgbQA3S/roHcD7AE5K+tYcwA0Ab5P0rQnA2gC+BfA/ku5NBrAPwBcl/SoA0A/gJklnIADbAbxN0rZgAOu06bJkt9YA7A7wHUm79gD4M0lHyQAyWJWkl5gBLM8sAXgHyA/pWQEwOgB+SNKhagBvSvpABuAMgN8kHagHsFPSh2oAqyX94AxgG4DPk3RYA+AHSYcqAaxJ0oEcgDcA3JL02ZqA3SV9pgawLklnIgA7SXpjG8BWSd8sAeyUdG8dwBJJL5MB7Jn08TqAy5JeJAPYSdL5EoD7JL1kBrBb0kcJAPsBvE3SmxqAX5N0dAnA/SV9JgGwJ0nfzQH8qKQtE0D2G5L00hHAJUlflgA8U9KF0YD7kr5aBfBY0qVJAN+V9OVKAL+W9HUbwL2SHlIC+D1JX1oD2CXpsQjA/iR9NA6wWNJTCYCPSvpiBcBRSe+KAewt6bMVgBOS3pcBvFBS910A/wPgfQDbAMwD8DCAvQA+c5p3v+b/AYB/AcgDEtQ1yTcPAAAAAElFTkSuQmCC" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dong-Navigator 24 Verses Memorizer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script type="importmap">
+      {
+        "imports": {
+          "react-dom/": "https://aistudiocdn.com/react-dom@^19.1.1/",
+          "react/": "https://aistudiocdn.com/react@^19.1.1/",
+          "react": "https://aistudiocdn.com/react@^19.1.1"
+        }
+      }
+    </script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'grape': {
+                'DEFAULT': '#5D3A9B',
+                'light': '#A084E8',
+                'dark': '#4C2F8A',
+                'darkest': '#1C133A',
+              },
+              'leaf-green': {
+                'DEFAULT': '#6E8F62',
+                'light': '#A3C9A8',
+              },
+            }
+          }
+        }
+      }
+    </script>
+  </head>
+  <body class="bg-grape-darkest">
+    <div id="root"></div>
+    <script type="module" src="/index.tsx"></script>
+  </body>
+</html>
